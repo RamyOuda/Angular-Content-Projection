@@ -1,0 +1,12 @@
+<div #headerRef class="header">
+  <button *ngIf="logoElement" (click)="toggleTitle()">
+    {{ titleHidden ? 'Show' : 'Hide' }} Title
+  </button>
+
+  <div class="inner-header flex">
+    <ng-content select="[logo]"></ng-content>
+    <ng-content select="[title]" *ngIf="!titleHidden"></ng-content>
+  </div>
+  <ng-content select="[subtitle]"></ng-content>
+  <app-wave></app-wave>
+</div>

@@ -1,0 +1,32 @@
+p {
+  font-family: Lato;
+}
+
+.text-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+
+  textarea {
+    height: 4rem;
+  }
+}
+
+.logo {
+  width: 50px;
+  fill: white;
+  margin-right: 15px;
+  display: inline-block;
+  vertical-align: middle;
+  border-radius: 5px;
+}
+
+button {
+  height: 50px;
+  background-color: #00fff22a;
+  border-color: aliceblue;
+  border-radius: 0.5rem;
+  color: aliceblue;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
